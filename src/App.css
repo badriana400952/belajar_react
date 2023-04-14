@@ -1,38 +1,248 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.containerr{
+ 
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(64, 226, 226);
+  line-height: 50px;
+  
+}
+
+.judul h1{
+  font-size: 40px;
+  line-height: 70px;
+  padding-left: 60px;
+  color: rgb(3, 59, 59);
+}
+
+.kotak-satu{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.kotak-dua ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(3, 59, 59);
+  font-weight:bold;
+  /* transition: 1s; */
+}
+
+
+.kotak-dua ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.kotak-dua ul li{
+  list-style: none;
+}
+.kotak-dua{
+  width: 50%;
+}
+
+.content{
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  margin: 100px;
+
+}
+.head1{
+  width: 700px;
+  height: 700px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  animation-name: berubah;
+  animation-duration: 10s;
+  animation-delay: 200s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  /* animation-timing-function: cubic-bezier(0.16, 0.5, 1, 1); */
+  background-size: cover;
+  
+}
+
+@keyframes berubah {
+  0% { background-image: url("foto/hitam.png");}
+  10% { background-image: url("foto/hitam.png");}
+  20% { background-image: url("foto/hitam.png");}
+  30% { background-image: url("foto/bmwcoklata.png");}
+  40% { background-image: url("foto/bmwcoklata.png");}
+  50% { background-image: url("foto/bmwcoklata.png");}
+  60% { background-image: url("foto/bmwcoklata.png");}
+  70% { background-image: url("foto/silver.png");}
+  80% { background-image: url("foto/silver.png");}
+  90% { background-image: url("foto/silver.png");}
+  100% { background-image: url("foto/silver.png");}
+}
+.head2{
+  width: 600px;
+  height: 600px;
+  /* background-color: beige; */
+}
+.head2 h1{
+  font-size: 80px;
+  color: rgb(3, 59, 59);
+  font-weight: bold;
+}
+.head2 h3{
+  font-size: 40px;
+  color: rgb(152, 223, 223);
+  font-weight: bold;
+}
+.head2 span{
+  color: rgb(3, 59, 59);
+  font-size: 50px;
+
+}
+.head2 p{
+  color: rgb(3, 59, 59);
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.Mycard1{
+  width: 400px;
+  height: 500px;
+  border: solid 3px rgb(64, 226, 226);
+  /* background-color: rgb(201, 232, 232); */
+  border-radius: 30px;
+  transition: 1s;
+  color: rgb(64, 226, 226);
+}
+.Mycard1 p{
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+.Mycard1 img{
+  width: 500px;
+  padding-top: -40vh;
+}
+.Mycard1:hover{
+  background-color: rgb(64, 226, 226);
+  transform: scale(1.02);
+  color: aliceblue;
+  /* box-shadow: 10px 10px 20px 5px rgb(64, 226, 226); */
+
+}
+.content2{
+  width: 100%;
+  /* background-color: black; */
+}
+.content2 h1{
+  font-size: 60px;
+  color: rgb(3, 59, 59);
+  text-align: center;
+  font-weight: bold;
+}
+.content2 p{
+  font-size: 20px;
+  color: rgb(3, 59, 59);
+  text-align: center;
+
+}
+.chiled_content1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.chiled_satu{
+  width: 50%;
+  background-color: rgb(64, 226, 226);
+}
+.paragraf{
+  width: 70%;
+  height: 700px;
+  margin: auto;
+}
+.paragraf h1{
+  font-size: 60px;
+  margin-top: 40px;
+}
+.paragraf h2{
+  font-size: 40px;
   color: white;
+  text-align: center;
+
+}
+.paragraf p{
+  margin: 20px auto;
+  font-size: 30px;
+  text-align: left;
+  color: rgb(3, 59, 59);
+
+}
+.chiled_contenta{
+  width: 50%;
+}
+.paragraf2{
+  width: 70%;
+  height: 700px;
+  margin: auto;
+}
+.paragraf2 h1{
+  font-size: 60px;
+  margin-top: 40px;
+}
+.paragraf2 h2{
+  font-size: 40px;
+  color: rgb(64, 226, 226);
+  text-align: center;
+
+}
+.paragraf2 p{
+  margin: 20px auto;
+  font-size: 30px;
+  text-align: left;
+  color: rgb(3, 59, 59);
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* client */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
+.client{
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 30vh;
+}
+.client h1{
+  font-size: 60px;
+  color: rgb(3, 59, 59);
+  text-align: center;
+  font-weight: bold;
+}
+.clientsatu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.clientdua{
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+.clientdua img{
+  width: 250px;
+  margin: 10px;
 }

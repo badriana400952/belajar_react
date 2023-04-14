@@ -1,25 +1,75 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import { AlbimsApi } from "./useEffect/AlbimsApi";
+// import LatihanState from './state/LatihanState'
+// import LatihanUseEffect from "./useEffect/LatihanUseEffect";
+import Useref from "./useRef/Useref";
+// import logo from './logo.svg';
+// import './App.css';
+// import Mybutton from './componen/Mybutton';
+// // import Mytext from './componen/Mytext';
+// import Myjudul from './componen/Myjudul';
+// import Mylist from './componen/Mylist';
+// import Header from './componen/Header';
+// import Mycard from './componen/Mycard';
+// import Mycontent from './componen/Mycontent';
+// import Myclient from './componen/Myclient';
+// import Card from './componen/Card';
 
-function App() {
+
+
+
+
+
+const App = () => {
+    // const mynav = "sosial media";
+    // const myalamat = "alamat";
+
+    // const kliked = () => {
+    //   return alert("jallo bro");
+    // }
+
+    
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div>
+    // <div className="containerr">
+    //       <div className="kotak-satu">
+    //           <Myjudul/>
+    //       </div>
+    //       <div className="kotak-dua">
+    //           <Mylist mynav = { mynav } myalamat= {myalamat}/>
+    //       </div>
+          
+    // </div>
+    // {/* <Mybutton/>
+    //   <Header />
+    //   <Mycard />
+    //   <Mycontent/>
+    //   <Myclient/>
+    //   <Card/> */}
+    // </div>
+    
+
+
+    <>
+      
+      {/* <LatihanState/> */}
+      {/* <LatihanUseEffect/> */}
+      {/* <AlbimsApi/> */}
+      <Useref/>
+    </>
+
+
+
+
+
+
+
+
+
+
+
   );
-}
+ 
+} 
 
 export default App;

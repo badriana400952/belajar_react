@@ -1,0 +1,19 @@
+.parent{
+  width: 600px;
+  height: 500px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  margin: 0 auto;
+}
+
+
+
+button{
+  padding: 10px;
+  border: none;
+  background-color: aqua;
+  border-radius: 5px;
+  margin: 10px;
+}
